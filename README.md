@@ -10,7 +10,7 @@ The AGI Countdown Clock is a research-driven governance signal that tracks progr
 
 **Midnight** represents the point when machines achieve human-level cognition across domains—general intelligence that matches or exceeds human performance in all cognitive tasks.
 
-**Current Reading**: **11:58 PM** - 1 Minute to Midnight *(as of February 6, 2026)*
+**Current Reading**: **11:58 PM** - 2 Minute to Midnight
 
 ---
 
