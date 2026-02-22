@@ -6,233 +6,33 @@
   },
   "timeline": [
     {
-      "year": 1950,
-      "title": "The Turing Test",
-      "description": "Alan Turing proposes the imitation game, a practical test for machine intelligence.",
-      "clockTime": "11:00 PM",
-      "alignment": "left",
-      "severity": "default"
-    },
-    {
-      "year": 1956,
-      "title": "Dartmouth Conference",
-      "description": "At Dartmouth, John McCarthy and others coin the term Artificial Intelligence and launch the field.",
-      "clockTime": "11:05 PM",
-      "alignment": "right",
-      "severity": "default"
-    },
-    {
-      "year": 1966,
-      "title": "ELIZA",
-      "description": "ELIZA shows early language processing and how quickly people attribute understanding to machines.",
-      "clockTime": "11:08 PM",
-      "alignment": "left",
-      "severity": "default"
-    },
-    {
-      "year": 1997,
-      "title": "Deep Blue Defeats Kasparov",
-      "description": "IBM's Deep Blue defeats Garry Kasparov, proving machines can surpass humans in chess.",
-      "clockTime": "11:15 PM",
-      "alignment": "right",
-      "severity": "default"
-    },
-    {
-      "year": 2012,
-      "title": "Deep Learning Revolution",
-      "description": "AlexNet wins ImageNet and sparks the modern deep-learning wave.",
-      "clockTime": "11:25 PM",
-      "alignment": "left",
-      "severity": "default"
-    },
-    {
-      "year": 2016,
-      "title": "AlphaGo Defeats Lee Sedol",
-      "description": "AlphaGo defeats Lee Sedol, revealing creative search and intuition-like play.",
-      "clockTime": "11:35 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2017,
-      "title": "Transformer Architecture",
-      "description": "Transformers change natural language processing and enable large-scale language models.",
-      "clockTime": "11:40 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2020,
-      "title": "GPT-3 Released",
-      "description": "OpenAI's GPT-3 shows strong few-shot language capability at scale, setting the modern LLM baseline.",
-      "clockTime": "11:45 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2020,
-      "title": "AlphaFold2 Breakthrough",
-      "description": "DeepMind's AlphaFold2 reaches near-experimental protein structure accuracy, signaling AI impact in science.",
-      "clockTime": "11:46 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2021,
-      "title": "CLIP + DALL-E Foundations",
-      "description": "OpenAI's CLIP links text and images, and DALL-E demonstrates early text-to-image generation.",
-      "clockTime": "11:47 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2021,
-      "title": "Codex Powers Copilot",
-      "description": "OpenAI Codex powers GitHub Copilot, bringing AI code generation into mainstream developer workflows.",
-      "clockTime": "11:47 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2022,
-      "title": "Instruction Tuning + RLHF",
-      "description": "InstructGPT shows that reinforcement learning from human feedback can make LLMs follow instructions far more reliably.",
-      "clockTime": "11:48 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2022,
-      "title": "Chinchilla Scaling Laws",
-      "description": "Compute-optimal scaling demonstrates that training on far more data, not just bigger models, drives better performance.",
-      "clockTime": "11:48 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2022,
-      "title": "PaLM Scales LLMs",
-      "description": "Google's PaLM scales LLMs with the Pathways architecture, pushing capability and breadth.",
-      "clockTime": "11:48 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2022,
-      "title": "Text-to-Image Goes Mainstream",
-      "description": "DALL-E 2, Imagen, and Stable Diffusion bring high-fidelity text-to-image generation to wide use.",
-      "clockTime": "11:49 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2022,
-      "title": "ChatGPT Launch",
-      "description": "ChatGPT brings conversational LLMs to mass adoption and everyday workflows.",
-      "clockTime": "11:50 PM",
-      "alignment": "right",
-      "severity": "danger"
-    },
-    {
-      "year": 2023,
-      "title": "Foundation Models Go Cloud-Scale",
-      "description": "Amazon Bedrock becomes generally available, offering managed access to multiple foundation models, including Amazon Titan, and accelerating enterprise adoption.",
-      "clockTime": "11:51 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2023,
-      "title": "Open-Weight LLMs Accelerate",
-      "description": "Meta's Llama 2 and Mistral 7B make strong open-weight models broadly available.",
-      "clockTime": "11:51 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2023,
-      "title": "MoE Open Models",
-      "description": "Mistral releases Mixtral 8x7B, an open-weight sparse mixture-of-experts model that delivers strong performance with efficient inference.",
-      "clockTime": "11:52 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2023,
-      "title": "GPT-4 & Multimodal Reasoning",
-      "description": "GPT-4 advances benchmark performance and multimodal reasoning.",
-      "clockTime": "11:52 PM",
-      "alignment": "right",
-      "severity": "danger"
-    },
-    {
-      "year": 2023,
-      "title": "Frontier LLM Competition",
-      "description": "Anthropic Claude 2, Google Gemini 1.0, and xAI Grok expand the frontier race.",
-      "clockTime": "11:53 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2023,
-      "title": "Agentic Tool Use",
-      "description": "ReAct formalizes reasoning-and-acting with tools, and AutoGPT popularizes autonomous task loops.",
-      "clockTime": "11:54 PM",
-      "alignment": "right",
-      "severity": "danger"
-    },
-    {
-      "year": 2023,
-      "title": "Embodied AI Models",
-      "description": "PaLM-E and RT-2 connect language models to robots and embodied control.",
-      "clockTime": "11:55 PM",
-      "alignment": "left",
-      "severity": "danger"
-    },
-    {
-      "year": 2023,
-      "title": "Asia's Frontier LLM Wave",
-      "description": "Baidu (ERNIE 4.0), Alibaba (Tongyi Qianwen 2.0), Tencent (Hunyuan), Huawei (Pangu 3.0), Naver (HyperCLOVA X), and Samsung (Gauss) launch major regional LLMs, globalizing the frontier race.",
-      "clockTime": "11:55 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2024,
-      "title": "Blackwell AI Infrastructure",
-      "description": "NVIDIA's Blackwell platform targets trillion-parameter-scale training and dramatically lower inference cost, reshaping AI infrastructure.",
-      "clockTime": "11:56 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2024,
-      "title": "Enterprise RAG + Hybrid Models",
-      "description": "Cohere's Command R and AI21's Jamba prioritize production-scale RAG and efficient hybrid architectures for long-context workloads.",
-      "clockTime": "11:56 PM",
-      "alignment": "right",
-      "severity": "critical"
-    },
-    {
-      "year": 2024,
-      "title": "Llama 3 Open Frontier",
-      "description": "Meta releases Llama 3 open-weight models, raising the capability and reach of the open LLM ecosystem.",
-      "clockTime": "11:56 PM",
-      "alignment": "left",
-      "severity": "critical"
-    },
-    {
-      "year": 2024,
-      "title": "Multimodal + Long-Context Frontier",
-      "description": "GPT-4o, Claude 3, and Gemini 1.5 deliver real-time multimodal interaction and long-context reasoning.",
-      "clockTime": "11:56 PM",
+      "year": 2025,
+      "title": "Reasoning-First Models",
+      "description": "OpenAI o3 and xAI Grok 3 emphasize extended reasoning and tool use for complex tasks.",
+      "clockTime": "11:58 PM",
       "alignment": "right",
       "severity": "danger"
     },
     {
       "year": 2024,
-      "title": "Efficient Small LLMs",
-      "description": "Microsoft's Phi-3 shows strong performance from small, local-capable models.",
+      "title": "Deliberate Reasoning Models",
+      "description": "OpenAI o1-preview introduces models trained to spend more time reasoning, boosting performance on complex math, coding, and science tasks.",
+      "clockTime": "11:58 PM",
+      "alignment": "left",
+      "severity": "danger"
+    },
+    {
+      "year": 2024,
+      "title": "Text-to-Video Leap",
+      "description": "OpenAI Sora and Google DeepMind Veo push text-to-video and image-conditioned generation.",
+      "clockTime": "11:58 PM",
+      "alignment": "right",
+      "severity": "danger"
+    },
+    {
+      "year": 2024,
+      "title": "Apple Intelligence Launch",
+      "description": "Apple rolls out Apple Intelligence across iPhone, iPad, and Mac with on-device and private-cloud processing for privacy-preserving AI at consumer scale.",
       "clockTime": "11:57 PM",
       "alignment": "left",
       "severity": "critical"
@@ -247,35 +47,235 @@
     },
     {
       "year": 2024,
-      "title": "Apple Intelligence Launch",
-      "description": "Apple rolls out Apple Intelligence across iPhone, iPad, and Mac with on-device and private-cloud processing for privacy-preserving AI at consumer scale.",
+      "title": "Efficient Small LLMs",
+      "description": "Microsoft's Phi-3 shows strong performance from small, local-capable models.",
       "clockTime": "11:57 PM",
       "alignment": "left",
       "severity": "critical"
     },
     {
       "year": 2024,
-      "title": "Text-to-Video Leap",
-      "description": "OpenAI Sora and Google DeepMind Veo push text-to-video and image-conditioned generation.",
-      "clockTime": "11:58 PM",
+      "title": "Multimodal + Long-Context Frontier",
+      "description": "GPT-4o, Claude 3, and Gemini 1.5 deliver real-time multimodal interaction and long-context reasoning.",
+      "clockTime": "11:56 PM",
       "alignment": "right",
       "severity": "danger"
     },
     {
       "year": 2024,
-      "title": "Deliberate Reasoning Models",
-      "description": "OpenAI o1-preview introduces models trained to spend more time reasoning, boosting performance on complex math, coding, and science tasks.",
-      "clockTime": "11:58 PM",
+      "title": "Llama 3 Open Frontier",
+      "description": "Meta releases Llama 3 open-weight models, raising the capability and reach of the open LLM ecosystem.",
+      "clockTime": "11:56 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2024,
+      "title": "Enterprise RAG + Hybrid Models",
+      "description": "Cohere's Command R and AI21's Jamba prioritize production-scale RAG and efficient hybrid architectures for long-context workloads.",
+      "clockTime": "11:56 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2024,
+      "title": "Blackwell AI Infrastructure",
+      "description": "NVIDIA's Blackwell platform targets trillion-parameter-scale training and dramatically lower inference cost, reshaping AI infrastructure.",
+      "clockTime": "11:56 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2023,
+      "title": "Asia's Frontier LLM Wave",
+      "description": "Baidu (ERNIE 4.0), Alibaba (Tongyi Qianwen 2.0), Tencent (Hunyuan), Huawei (Pangu 3.0), Naver (HyperCLOVA X), and Samsung (Gauss) launch major regional LLMs, globalizing the frontier race.",
+      "clockTime": "11:55 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2023,
+      "title": "Embodied AI Models",
+      "description": "PaLM-E and RT-2 connect language models to robots and embodied control.",
+      "clockTime": "11:55 PM",
       "alignment": "left",
       "severity": "danger"
     },
     {
-      "year": 2025,
-      "title": "Reasoning-First Models",
-      "description": "OpenAI o3 and xAI Grok 3 emphasize extended reasoning and tool use for complex tasks.",
-      "clockTime": "11:58 PM",
+      "year": 2023,
+      "title": "Agentic Tool Use",
+      "description": "ReAct formalizes reasoning-and-acting with tools, and AutoGPT popularizes autonomous task loops.",
+      "clockTime": "11:54 PM",
       "alignment": "right",
       "severity": "danger"
-    }
+    },
+    {
+      "year": 2023,
+      "title": "Frontier LLM Competition",
+      "description": "Anthropic Claude 2, Google Gemini 1.0, and xAI Grok expand the frontier race.",
+      "clockTime": "11:53 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2023,
+      "title": "GPT-4 & Multimodal Reasoning",
+      "description": "GPT-4 advances benchmark performance and multimodal reasoning.",
+      "clockTime": "11:52 PM",
+      "alignment": "right",
+      "severity": "danger"
+    },
+    {
+      "year": 2023,
+      "title": "MoE Open Models",
+      "description": "Mistral releases Mixtral 8x7B, an open-weight sparse mixture-of-experts model that delivers strong performance with efficient inference.",
+      "clockTime": "11:52 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2023,
+      "title": "Open-Weight LLMs Accelerate",
+      "description": "Meta's Llama 2 and Mistral 7B make strong open-weight models broadly available.",
+      "clockTime": "11:51 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2023,
+      "title": "Foundation Models Go Cloud-Scale",
+      "description": "Amazon Bedrock becomes generally available, offering managed access to multiple foundation models, including Amazon Titan, and accelerating enterprise adoption.",
+      "clockTime": "11:51 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2022,
+      "title": "ChatGPT Launch",
+      "description": "ChatGPT brings conversational LLMs to mass adoption and everyday workflows.",
+      "clockTime": "11:50 PM",
+      "alignment": "right",
+      "severity": "danger"
+    },
+    {
+      "year": 2022,
+      "title": "Text-to-Image Goes Mainstream",
+      "description": "DALL-E 2, Imagen, and Stable Diffusion bring high-fidelity text-to-image generation to wide use.",
+      "clockTime": "11:49 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2022,
+      "title": "PaLM Scales LLMs",
+      "description": "Google's PaLM scales LLMs with the Pathways architecture, pushing capability and breadth.",
+      "clockTime": "11:48 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2022,
+      "title": "Chinchilla Scaling Laws",
+      "description": "Compute-optimal scaling demonstrates that training on far more data, not just bigger models, drives better performance.",
+      "clockTime": "11:48 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2022,
+      "title": "Instruction Tuning + RLHF",
+      "description": "InstructGPT shows that reinforcement learning from human feedback can make LLMs follow instructions far more reliably.",
+      "clockTime": "11:48 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2021,
+      "title": "Codex Powers Copilot",
+      "description": "OpenAI Codex powers GitHub Copilot, bringing AI code generation into mainstream developer workflows.",
+      "clockTime": "11:47 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2021,
+      "title": "CLIP + DALL-E Foundations",
+      "description": "OpenAI's CLIP links text and images, and DALL-E demonstrates early text-to-image generation.",
+      "clockTime": "11:47 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2020,
+      "title": "AlphaFold2 Breakthrough",
+      "description": "DeepMind's AlphaFold2 reaches near-experimental protein structure accuracy, signaling AI impact in science.",
+      "clockTime": "11:46 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2020,
+      "title": "GPT-3 Released",
+      "description": "OpenAI's GPT-3 shows strong few-shot language capability at scale, setting the modern LLM baseline.",
+      "clockTime": "11:45 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2017,
+      "title": "Transformer Architecture",
+      "description": "Transformers change natural language processing and enable large-scale language models.",
+      "clockTime": "11:40 PM",
+      "alignment": "left",
+      "severity": "critical"
+    },
+    {
+      "year": 2016,
+      "title": "AlphaGo Defeats Lee Sedol",
+      "description": "AlphaGo defeats Lee Sedol, revealing creative search and intuition-like play.",
+      "clockTime": "11:35 PM",
+      "alignment": "right",
+      "severity": "critical"
+    },
+    {
+      "year": 2012,
+      "title": "Deep Learning Revolution",
+      "description": "AlexNet wins ImageNet and sparks the modern deep-learning wave.",
+      "clockTime": "11:25 PM",
+      "alignment": "left",
+      "severity": "default"
+    },
+    {
+      "year": 1997,
+      "title": "Deep Blue Defeats Kasparov",
+      "description": "IBM's Deep Blue defeats Garry Kasparov, proving machines can surpass humans in chess.",
+      "clockTime": "11:15 PM",
+      "alignment": "right",
+      "severity": "default"
+    },
+    {
+      "year": 1966,
+      "title": "ELIZA",
+      "description": "ELIZA shows early language processing and how quickly people attribute understanding to machines.",
+      "clockTime": "11:08 PM",
+      "alignment": "left",
+      "severity": "default"
+    },
+    {
+      "year": 1956,
+      "title": "Dartmouth Conference",
+      "description": "At Dartmouth, John McCarthy and others coin the term Artificial Intelligence and launch the field.",
+      "clockTime": "11:05 PM",
+      "alignment": "right",
+      "severity": "default"
+    },
+    {
+      "year": 1950,
+      "title": "The Turing Test",
+      "description": "Alan Turing proposes the imitation game, a practical test for machine intelligence.",
+      "clockTime": "11:00 PM",
+      "alignment": "left",
+      "severity": "default"
+    }      
   ]
 }
