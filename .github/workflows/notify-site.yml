@@ -1,0 +1,20 @@
+name: Notify site on agi.json change
+on:
+  push:
+    paths:
+      - agi.json
+  workflow_dispatch:
+
+jobs:
+  trigger-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch site build
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${GH_PAT}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/edyantlabs/edyant.com/dispatches \
+            -d '{"event_type":"agi-updated"}'
